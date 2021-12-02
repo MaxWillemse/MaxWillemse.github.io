@@ -83,6 +83,11 @@ font-size: 20px;
        }
 
 
+    table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
 
 .home_text  {
   width: 30%;
