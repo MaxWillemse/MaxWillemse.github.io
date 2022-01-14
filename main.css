@@ -1,0 +1,167 @@
+body {
+
+    background-image: url(380a0c2c7bc57319a389b17bf4bd7014.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+
+.header {
+  overflow: hidden;
+  background-color:  ;
+  padding: 15px 7,5px;
+
+
+}
+
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 27px;
+  line-height: 40px;
+  border-radius: 12px;
+
+}
+
+.header a.logo {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.header a:hover {
+  background-color: royalblue;
+  color: white;
+
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+  background-size: 30px;
+}
+
+.header-right {
+  float: right;
+  padding-top: 30px;
+
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+    color: white;
+
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+.text {
+font-size: 20px;
+
+}
+
+
+.contact_verse       {
+    background-size: 50px;
+float: right;
+position: fixed; right: 827px;
+
+       }
+
+       .contact_text {
+         font-size: 20px;
+         color: white;
+         font-family: sans-serif;
+         text-align: center;
+
+       }
+
+
+
+
+           table, th, td {
+         border: 1px solid white;
+         border-collapse: collapse;
+       }
+
+
+.home_text  {
+  width: 50%;
+  font-size: 25px;
+  font-family: serif;
+}
+
+
+
+input {
+  border: 20;
+  padding: 8px;
+  font-size: 20px;
+  font-family: monospace;
+
+}
+
+
+.img_military_vr{
+  float: right;
+  position: relative; top: -225px; right: 800px;
+}
+
+
+.sensorama {
+float: right;
+position: relative; top: -250px; right: 800px;
+}
+.think_man {
+  float: right;
+position:relative; top:-450px; right: 300px;
+
+}
+.trailer{
+display: none;
+
+}
+.mail_gif{
+  display: none;
+  float: right;
+  position: relative; top: -100px; right: 750px
+}
+.honey_ad{
+float:left;
+position:relative; top: -500px;
+
+}
+
+.news{
+     text-align: left;
+     font-size: 25px;
+     position:relative;left:350px;
+}
+.securion_ad{
+  float;left;
+     position:static;left:450px;
+}
+.roadtovr{
+  float:left;
+}
+.psvr2{
+  float:right;
+  position:relative;top:200px;
+}
+.psvr{
+  float:right;
+  position:relative;top:400px;right:-400px;
+}
